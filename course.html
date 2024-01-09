@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>WCB Cafe - course</title>
+    <meta
+      name="description"
+      content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Philosopher"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <style>
+    .about__title {
+      padding-left: 50px;
+      padding-bottom: 36px;
+    }
+
+    .about__body-item {
+      display: flex;
+      align-items: center;
+    }
+    .about__body-item-img {
+      width: 46%;
+    }
+    .about__body-item-img img {
+      width: 100%;
+    }
+    .about__body-item-texts {
+      box-sizing: border-box;
+      width: 54%;
+      padding-left: 7.8%;
+      padding-right: 7.8%;
+    }
+    .about__body-item-texts-copy {
+      font-size: 26px;
+      letter-spacing: 0.2em;
+      line-height: 1;
+      font-weight: bold;
+      color: #006a80;
+    }
+    .about__body-item-texts-p {
+      padding-top: 25px;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      line-height: 1.8;
+    }
+    .about__body-more {
+      padding-top: 60px;
+    }
+    .about__body-more a {
+      margin: 0 auto;
+    }
+
+    #course-content {
+      max-width: 800px;
+      margin-top: 5%;
+    }
+
+    .menu {
+      max-width: 950px;
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #center_ch {
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      .about__title {
+        padding-left: 0;
+        padding-bottom: 24px;
+        text-align: center;
+      }
+      .about__body-item {
+        flex-direction: column;
+      }
+      .about__body-item--reverse {
+        flex-direction: column-reverse;
+      }
+      .about__body-item-img {
+        width: 100%;
+      }
+      .about__body-item-texts {
+        padding-top: 25px;
+        padding-right: 10px;
+        padding-bottom: 48px;
+        padding-left: 10px;
+        width: 100%;
+      }
+      .about__body-item-texts-copy {
+        font-size: 16px;
+      }
+      .about__body-item-texts-p {
+        padding-top: 10px;
+        font-size: 10px;
+      }
+      .about__body-more {
+        padding-top: 0;
+      }
+    }
+  </style>
+  <body>
+    <div class="big-bg">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="index.html"
+            ><img class="logo" src="images/logo.svg" alt="WCBカフェ ホーム"
+          /></a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="news.html" id="menu-col">News</a></li>
+            <li><a href="menu.html" id="menu-col">Menu</a></li>
+            <li><a href="contact.html" id="menu-col">Contact</a></li>
+            <li><a href="course_mondai.html">Course</a></li>
+            <li><a href="test.html">Course2</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="course-content wrapper">
+        <h2 class="page-title" id="center_ch">course</h2>
+        <p>
+          WCB CAFEのおすすめコース：自然食の美味しさを堪能しましょう！ WCB
+          CAFEでは、体に優しい自然食を提供しています。当店の特徴は、無添加の食材を厳選し、お客様に最高の味わいと健康を提供することです。以下は、私たちが自信を持ってお勧めするコースです。
+        </p>
+      </div>
+
+      <div class="menu wrapper">
+        <h2>おすすめコース</h2>
+        <div class="menu-item">
+          <span>ヘルシーブランチ</span>
+          <span class="price">¥1,500</span>
+        </div>
+        <div class="menu-item">
+          <span>オーガニックランチセット</span>
+          <span class="price">¥1,800</span>
+        </div>
+        <div class="menu-item">
+          <span>ブレンドコーヒーアフタヌーン</span>
+          <span class="price">¥800</span>
+        </div>
+        <div class="menu-item">
+          <span>グリーンデリシャスディナー</span>
+          <span class="price">¥2,200</span>
+        </div>
+        <div class="menu-item">
+          <span>ナチュラルスイーツセレクション</span>
+          <span class="price">¥1,200</span>
+        </div>
+      </div>
+      <!-- /. -->
+    </div>
+    <div class="about wrapper">
+      <div class="about__body">
+        <div class="about__body-item">
+          <div class="about__body-item-img">
+            <img src="./images/menu03.jpg" />
+          </div>
+          <div class="about__body-item-texts">
+            <div class="about__body-item-texts-copy">ヘルシーブランチ</div>
+            <p class="about__body-item-texts-p">
+              朝食から始めましょう。新鮮なオーガニック野菜と卵を使用したヘルシーなブランチメニュー。身体の内側から元気をチャージ！
+            </p>
+          </div>
+        </div>
+
+        <div class="about__body-item">
+          <div class="about__body-item-texts">
+            <div class="about__body-item-texts-copy">オーガニックブランチ</div>
+            <p class="about__body-item-texts-p">
+              ランチタイムには、当店自慢のオーガニックフードを楽しんでください。たっぷりの栄養と美味しさを一皿に詰め込んでいます。
+            </p>
+          </div>
+          <div class="about__body-item-img">
+            <img src="./images/menu04.jpg" />
+          </div>
+        </div>
+
+        <div class="about__body-item">
+          <div class="about__body-item-img">
+            <img src="./images/menu01.jpg" />
+          </div>
+          <div class="about__body-item-texts">
+            <div class="about__body-item-texts-copy">
+              トレンドコーヒーアフタヌーン
+            </div>
+            <p class="about__body-item-texts-p">
+              お食事のあとには当店自慢のブレンドコーヒーをお楽しみください。リラックスしながら、心地よいコーヒーアロマに包まれましょう。
+            </p>
+          </div>
+        </div>
+
+        <div class="about__body-item">
+          <div class="about__body-item-texts">
+            <div class="about__body-item-texts-copy">
+              ナチュラルスイーツセレクション
+            </div>
+            <p class="about__body-item-texts-p">
+              デザートタイムには、当店自慢の無添加ナチュラルスイーツを味わってください。甘さと健康が調和したデザートで、食事を完璧に締めくくりましょう。
+            </p>
+          </div>
+          <div class="about__body-item-img">
+            <img src="./images/menu02.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="wrapper">
+        <p><small>&copy; 2019 Manabox</small></p>
+      </div>
+    </footer>
+  </body>
+</html>
